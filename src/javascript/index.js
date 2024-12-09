@@ -1,3 +1,6 @@
+$(function() {
+    console.log('paso por paso') ;
 
-
-console.log('Hola mundo... por segunda vez');
+    $("#reslistar").on ("click") ;
+        $('listar')
+});
