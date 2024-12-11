@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-buttons, .bottom-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.top-buttons {
+    justify-content: space-around;
+}
+
+.bottom-buttons {
+    justify-content: center;
+}
+
+.btn {
+    margin: 10px;
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: #4CAF50; /* Cambiar color de fondo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049; /* Cambiar color en hover */
+}
